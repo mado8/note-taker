@@ -1,0 +1,26 @@
+html,
+body {
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  background-color: #917466;
+}
+
+.text-center {
+    background-color: #C4D6BA;
+    margin: 0px;
+}
+
+.curved svg {
+    z-index: -100;
+    position: absolute;
+    display: inline-block;
+}
+
+.container {
+    z-index: 100;
+    padding-top: 20%;
+}
