@@ -1,8 +1,8 @@
 # note-taker
-Creating the back-end for a note taking app using express.js
+Creating the back-end for a note taking app using express.js to satisfy requests made by the user.
 
 ## Description
-This application is a tool to store company employees, roles, and departments to a database, and to make the database easy to interact with and manipulate from within the terminal.
+This note taking app allows you to create new notes, view existing ones, and delete them upon request. The simple design makes the application easy to use and efficient for those who are in need of jotting down a couple quick notes.
 
 ## Table of Contents
 
@@ -27,11 +27,11 @@ Visit the live site at https://note-taker-1907.herokuapp.com/ </br>
 
 ## Usage
 
+https://user-images.githubusercontent.com/88465484/143816393-2e28d94c-dc78-48b8-aaa9-18769f85d8aa.mov
 
 ## License 
 This project is licensed under MIT.  
 
 ## Questions
-
 Visit my other projects at https://github.com/mado8 </br>
 Contact me at madelineadonley@gmail.com ! </br>
