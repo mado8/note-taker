@@ -1,7 +1,32 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "id": "28dh",
+        "title": "Note",
+        "text": "Within a note"
+    },
+    {
+        "id": "42d8",
+        "title": "Anotha",
+        "text": "One"
+    },
+    {
+        "id": "i2dw",
+        "title": "The Last Note",
+        "text": "holds all the notes"
+    },
+    {
+        "id": "1937",
+        "title": "Maybe another one??",
+        "text": "Just one more"
+    },
+    {
+        "id": "8bb2",
+        "title": "The new notes",
+        "text": "this is the era of new notes"
+    },
+    {
+        "id": "4g27",
+        "title": "Another Note?",
+        "text": "How did I make this many"
     }
 ]
- 

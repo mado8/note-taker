@@ -1,21 +1,18 @@
-const express = require('express')
-const path = require('path')
+const express = require('express');
+const routes = require('./routes/notes');
+
 const app = express();
-const PORT = 8008;
+const PORT = process.env.PORT || 8008;
 
-const db = require('./db/db.json')
+app.use(express.json())
+app.use(express.static('public'));
+app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static(path.join(__dirname, './public')));
-
-app.get('/', (req,res) => {
-    res.sendFile(path.join(__dirname, './public/index.html'))
-}) 
-
-app.get('/api/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/notes.html'))
-})
-
+app.use(routes);
 
 app.listen(PORT, () => {
-    console.log(`you can just say listening on port and then do a $ no literally do a dollar sign no go back matthew heheheheheheheheheehe okay literally do a dollar sign do a dollar sign then port ${PORT}}`)
+    console.log(`you can just say listening on port and then do a $ yeah literally do a dollar sign no go back hahahaha okay literally do a dollar sign do a dollar sign then port ${PORT}`)
 })
+
+
+
